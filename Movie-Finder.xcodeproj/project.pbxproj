@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D68CB6A2AEF0A440007A35F /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D68CB692AEF0A440007A35F /* RecommendationViewController.swift */; };
 		6DC5E4932AE0CA5200E45BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4922AE0CA5200E45BC4 /* AppDelegate.swift */; };
 		6DC5E4952AE0CA5200E45BC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4942AE0CA5200E45BC4 /* SceneDelegate.swift */; };
 		6DC5E4972AE0CA5200E45BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4962AE0CA5200E45BC4 /* ViewController.swift */; };
@@ -16,6 +17,12 @@
 		6DC5E4AA2AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4A92AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4Tests.swift */; };
 		6DC5E4B42AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4B32AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4UITests.swift */; };
 		6DC5E4B62AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4B52AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4UITestsLaunchTests.swift */; };
+		6DC5E4C72AE5A2B400E45BC4 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4C62AE5A2B400E45BC4 /* DetailedViewController.swift */; };
+		6DC5E4C92AE98C1B00E45BC4 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4C82AE98C1B00E45BC4 /* MovieCollectionViewCell.swift */; };
+		6DC5E4CB2AEDACD200E45BC4 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4CA2AEDACD200E45BC4 /* FavoritesViewController.swift */; };
+		6DC5E4CD2AEEC91A00E45BC4 /* DetailedFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4CC2AEEC91A00E45BC4 /* DetailedFavoritesViewController.swift */; };
+		6DC5E4D12AEED1C400E45BC4 /* TheatersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4D02AEED1C400E45BC4 /* TheatersViewController.swift */; };
+		6DC5E4D52AEED8E400E45BC4 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5E4D42AEED8E400E45BC4 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,19 +31,21 @@
 			containerPortal = 6DC5E4872AE0CA5200E45BC4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6DC5E48E2AE0CA5200E45BC4;
-			remoteInfo = "NoahCunninghamBaker-Lab4";
+			remoteInfo = "Movie-Finder";
 		};
 		6DC5E4B02AE0CA5500E45BC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6DC5E4872AE0CA5200E45BC4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6DC5E48E2AE0CA5200E45BC4;
-			remoteInfo = "NoahCunninghamBaker-Lab4";
+			remoteInfo = "Movie-Finder";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6DC5E48F2AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NoahCunninghamBaker-Lab4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D68CB692AEF0A440007A35F /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		6DBB5C222AF041CD00D6F26B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6DC5E48F2AE0CA5200E45BC4 /* Movie-Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie-Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC5E4922AE0CA5200E45BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DC5E4942AE0CA5200E45BC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6DC5E4962AE0CA5200E45BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +53,17 @@
 		6DC5E49B2AE0CA5500E45BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC5E49E2AE0CA5500E45BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DC5E4A02AE0CA5500E45BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DC5E4A52AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NoahCunninghamBaker-Lab4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC5E4A52AE0CA5500E45BC4 /* Movie-FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie-FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC5E4A92AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoahCunninghamBaker_Lab4Tests.swift; sourceTree = "<group>"; };
-		6DC5E4AF2AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NoahCunninghamBaker-Lab4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC5E4AF2AE0CA5500E45BC4 /* Movie-FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie-FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC5E4B32AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoahCunninghamBaker_Lab4UITests.swift; sourceTree = "<group>"; };
 		6DC5E4B52AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoahCunninghamBaker_Lab4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DC5E4C62AE5A2B400E45BC4 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		6DC5E4C82AE98C1B00E45BC4 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		6DC5E4CA2AEDACD200E45BC4 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		6DC5E4CC2AEEC91A00E45BC4 /* DetailedFavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedFavoritesViewController.swift; sourceTree = "<group>"; };
+		6DC5E4D02AEED1C400E45BC4 /* TheatersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatersViewController.swift; sourceTree = "<group>"; };
+		6DC5E4D42AEED8E400E45BC4 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +94,9 @@
 		6DC5E4862AE0CA5200E45BC4 = {
 			isa = PBXGroup;
 			children = (
-				6DC5E4912AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4 */,
-				6DC5E4A82AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4Tests */,
-				6DC5E4B22AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4UITests */,
+				6DC5E4912AE0CA5200E45BC4 /* Movie-Finder */,
+				6DC5E4A82AE0CA5500E45BC4 /* Movie-FinderTests */,
+				6DC5E4B22AE0CA5500E45BC4 /* Movie-FinderUITests */,
 				6DC5E4902AE0CA5200E45BC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,50 +104,58 @@
 		6DC5E4902AE0CA5200E45BC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DC5E48F2AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4.app */,
-				6DC5E4A52AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4Tests.xctest */,
-				6DC5E4AF2AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4UITests.xctest */,
+				6DC5E48F2AE0CA5200E45BC4 /* Movie-Finder.app */,
+				6DC5E4A52AE0CA5500E45BC4 /* Movie-FinderTests.xctest */,
+				6DC5E4AF2AE0CA5500E45BC4 /* Movie-FinderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DC5E4912AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4 */ = {
+		6DC5E4912AE0CA5200E45BC4 /* Movie-Finder */ = {
 			isa = PBXGroup;
 			children = (
 				6DC5E4922AE0CA5200E45BC4 /* AppDelegate.swift */,
+				6DC5E4C82AE98C1B00E45BC4 /* MovieCollectionViewCell.swift */,
 				6DC5E4942AE0CA5200E45BC4 /* SceneDelegate.swift */,
 				6DC5E4962AE0CA5200E45BC4 /* ViewController.swift */,
 				6DC5E4982AE0CA5200E45BC4 /* Main.storyboard */,
 				6DC5E49B2AE0CA5500E45BC4 /* Assets.xcassets */,
 				6DC5E49D2AE0CA5500E45BC4 /* LaunchScreen.storyboard */,
 				6DC5E4A02AE0CA5500E45BC4 /* Info.plist */,
+				6DC5E4C62AE5A2B400E45BC4 /* DetailedViewController.swift */,
+				6DC5E4CA2AEDACD200E45BC4 /* FavoritesViewController.swift */,
+				6DC5E4CC2AEEC91A00E45BC4 /* DetailedFavoritesViewController.swift */,
+				6DC5E4D02AEED1C400E45BC4 /* TheatersViewController.swift */,
+				6DC5E4D42AEED8E400E45BC4 /* MovieTableViewCell.swift */,
+				6D68CB692AEF0A440007A35F /* RecommendationViewController.swift */,
+				6DBB5C222AF041CD00D6F26B /* README.md */,
 			);
-			path = "NoahCunninghamBaker-Lab4";
+			path = "Movie-Finder";
 			sourceTree = "<group>";
 		};
-		6DC5E4A82AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4Tests */ = {
+		6DC5E4A82AE0CA5500E45BC4 /* Movie-FinderTests */ = {
 			isa = PBXGroup;
 			children = (
 				6DC5E4A92AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4Tests.swift */,
 			);
-			path = "NoahCunninghamBaker-Lab4Tests";
+			path = "Movie-FinderTests";
 			sourceTree = "<group>";
 		};
-		6DC5E4B22AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4UITests */ = {
+		6DC5E4B22AE0CA5500E45BC4 /* Movie-FinderUITests */ = {
 			isa = PBXGroup;
 			children = (
 				6DC5E4B32AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4UITests.swift */,
 				6DC5E4B52AE0CA5500E45BC4 /* NoahCunninghamBaker_Lab4UITestsLaunchTests.swift */,
 			);
-			path = "NoahCunninghamBaker-Lab4UITests";
+			path = "Movie-FinderUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DC5E48E2AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4 */ = {
+		6DC5E48E2AE0CA5200E45BC4 /* Movie-Finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DC5E4B92AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "NoahCunninghamBaker-Lab4" */;
+			buildConfigurationList = 6DC5E4B92AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "Movie-Finder" */;
 			buildPhases = (
 				6DC5E48B2AE0CA5200E45BC4 /* Sources */,
 				6DC5E48C2AE0CA5200E45BC4 /* Frameworks */,
@@ -142,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = "NoahCunninghamBaker-Lab4";
-			productName = "NoahCunninghamBaker-Lab4";
-			productReference = 6DC5E48F2AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4.app */;
+			name = "Movie-Finder";
+			productName = "Movie-Finder";
+			productReference = 6DC5E48F2AE0CA5200E45BC4 /* Movie-Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DC5E4A42AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4Tests */ = {
+		6DC5E4A42AE0CA5500E45BC4 /* Movie-FinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DC5E4BC2AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "NoahCunninghamBaker-Lab4Tests" */;
+			buildConfigurationList = 6DC5E4BC2AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "Movie-FinderTests" */;
 			buildPhases = (
 				6DC5E4A12AE0CA5500E45BC4 /* Sources */,
 				6DC5E4A22AE0CA5500E45BC4 /* Frameworks */,
@@ -160,14 +183,14 @@
 			dependencies = (
 				6DC5E4A72AE0CA5500E45BC4 /* PBXTargetDependency */,
 			);
-			name = "NoahCunninghamBaker-Lab4Tests";
-			productName = "NoahCunninghamBaker-Lab4Tests";
-			productReference = 6DC5E4A52AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4Tests.xctest */;
+			name = "Movie-FinderTests";
+			productName = "Movie-FinderTests";
+			productReference = 6DC5E4A52AE0CA5500E45BC4 /* Movie-FinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6DC5E4AE2AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4UITests */ = {
+		6DC5E4AE2AE0CA5500E45BC4 /* Movie-FinderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DC5E4BF2AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "NoahCunninghamBaker-Lab4UITests" */;
+			buildConfigurationList = 6DC5E4BF2AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "Movie-FinderUITests" */;
 			buildPhases = (
 				6DC5E4AB2AE0CA5500E45BC4 /* Sources */,
 				6DC5E4AC2AE0CA5500E45BC4 /* Frameworks */,
@@ -178,9 +201,9 @@
 			dependencies = (
 				6DC5E4B12AE0CA5500E45BC4 /* PBXTargetDependency */,
 			);
-			name = "NoahCunninghamBaker-Lab4UITests";
-			productName = "NoahCunninghamBaker-Lab4UITests";
-			productReference = 6DC5E4AF2AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4UITests.xctest */;
+			name = "Movie-FinderUITests";
+			productName = "Movie-FinderUITests";
+			productReference = 6DC5E4AF2AE0CA5500E45BC4 /* Movie-FinderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DC5E48A2AE0CA5200E45BC4 /* Build configuration list for PBXProject "NoahCunninghamBaker-Lab4" */;
+			buildConfigurationList = 6DC5E48A2AE0CA5200E45BC4 /* Build configuration list for PBXProject "Movie-Finder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +242,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DC5E48E2AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4 */,
-				6DC5E4A42AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4Tests */,
-				6DC5E4AE2AE0CA5500E45BC4 /* NoahCunninghamBaker-Lab4UITests */,
+				6DC5E48E2AE0CA5200E45BC4 /* Movie-Finder */,
+				6DC5E4A42AE0CA5500E45BC4 /* Movie-FinderTests */,
+				6DC5E4AE2AE0CA5500E45BC4 /* Movie-FinderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +283,14 @@
 			files = (
 				6DC5E4972AE0CA5200E45BC4 /* ViewController.swift in Sources */,
 				6DC5E4932AE0CA5200E45BC4 /* AppDelegate.swift in Sources */,
+				6DC5E4D52AEED8E400E45BC4 /* MovieTableViewCell.swift in Sources */,
+				6DC5E4C92AE98C1B00E45BC4 /* MovieCollectionViewCell.swift in Sources */,
+				6DC5E4C72AE5A2B400E45BC4 /* DetailedViewController.swift in Sources */,
+				6DC5E4CB2AEDACD200E45BC4 /* FavoritesViewController.swift in Sources */,
 				6DC5E4952AE0CA5200E45BC4 /* SceneDelegate.swift in Sources */,
+				6D68CB6A2AEF0A440007A35F /* RecommendationViewController.swift in Sources */,
+				6DC5E4D12AEED1C400E45BC4 /* TheatersViewController.swift in Sources */,
+				6DC5E4CD2AEEC91A00E45BC4 /* DetailedFavoritesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +316,12 @@
 /* Begin PBXTargetDependency section */
 		6DC5E4A72AE0CA5500E45BC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DC5E48E2AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4 */;
+			target = 6DC5E48E2AE0CA5200E45BC4 /* Movie-Finder */;
 			targetProxy = 6DC5E4A62AE0CA5500E45BC4 /* PBXContainerItemProxy */;
 		};
 		6DC5E4B12AE0CA5500E45BC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DC5E48E2AE0CA5200E45BC4 /* NoahCunninghamBaker-Lab4 */;
+			target = 6DC5E48E2AE0CA5200E45BC4 /* Movie-Finder */;
 			targetProxy = 6DC5E4B02AE0CA5500E45BC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -443,18 +473,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NoahCunninghamBaker-Lab4/Info.plist";
+				INFOPLIST_FILE = "Movie-Finder/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Movie Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.NoahCunninghamBaker-Lab4";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Movie-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,18 +502,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NoahCunninghamBaker-Lab4/Info.plist";
+				INFOPLIST_FILE = "Movie-Finder/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Movie Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.NoahCunninghamBaker-Lab4";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Movie-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -499,12 +533,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.NoahCunninghamBaker-Lab4Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Movie-FinderTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoahCunninghamBaker-Lab4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoahCunninghamBaker-Lab4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie-Finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Movie-Finder";
 			};
 			name = Debug;
 		};
@@ -518,12 +552,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.NoahCunninghamBaker-Lab4Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Movie-FinderTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoahCunninghamBaker-Lab4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoahCunninghamBaker-Lab4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie-Finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Movie-Finder";
 			};
 			name = Release;
 		};
@@ -535,12 +569,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.NoahCunninghamBaker-Lab4UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Movie-FinderUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NoahCunninghamBaker-Lab4";
+				TEST_TARGET_NAME = "Movie-Finder";
 			};
 			name = Debug;
 		};
@@ -552,19 +586,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.NoahCunninghamBaker-Lab4UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Movie-FinderUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NoahCunninghamBaker-Lab4";
+				TEST_TARGET_NAME = "Movie-Finder";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DC5E48A2AE0CA5200E45BC4 /* Build configuration list for PBXProject "NoahCunninghamBaker-Lab4" */ = {
+		6DC5E48A2AE0CA5200E45BC4 /* Build configuration list for PBXProject "Movie-Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DC5E4B72AE0CA5500E45BC4 /* Debug */,
@@ -573,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DC5E4B92AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "NoahCunninghamBaker-Lab4" */ = {
+		6DC5E4B92AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "Movie-Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DC5E4BA2AE0CA5500E45BC4 /* Debug */,
@@ -582,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DC5E4BC2AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "NoahCunninghamBaker-Lab4Tests" */ = {
+		6DC5E4BC2AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "Movie-FinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DC5E4BD2AE0CA5500E45BC4 /* Debug */,
@@ -591,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DC5E4BF2AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "NoahCunninghamBaker-Lab4UITests" */ = {
+		6DC5E4BF2AE0CA5500E45BC4 /* Build configuration list for PBXNativeTarget "Movie-FinderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DC5E4C02AE0CA5500E45BC4 /* Debug */,
